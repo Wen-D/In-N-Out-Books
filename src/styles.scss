@@ -1,0 +1,42 @@
+/* Import theme file _theme */
+@import './theme';
+html,
+body {
+    height: 100%;
+}
+body {
+   margin: 0;
+   /* global font type */
+   font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+/* color palette*/
+.blue {
+   color: #2196F3;
+}
+
+.green {
+   color: #66BB6A;
+}
+/* link styling */
+.attribution-link {
+   text-decoration: none;
+   color: white;
+}
+
+.attribution-link:hover {
+   text-decoration: underline;
+}
+/* card styling*/
+.card-title-icon {
+   text-align: center;
+}
+
+.card-title-icon,
+.mat-icon {
+   font-size: 72px;
+}
+
+/* center aligned  content */
+.align-center {
+   text-align: center;
+}

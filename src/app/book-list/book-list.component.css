@@ -1,0 +1,31 @@
+/* link styling */
+.a-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+/* link hover styling*/
+.a-link:hover {
+  text-decoration: underline;
+}
+/*grid styling*/
+.grid-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: auto auto auto;
+  padding: 25
+}
+/*container item styling*/
+.grid-container__item {
+  padding: 20px;
+  font-size: 30px;
+}
+/*grid link hover styling*/
+.grid-container__ahref {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*grid link hover styling*/
+.grid-container__ahref:hover {
+  text-decoration: underline;
+}
